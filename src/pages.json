@@ -1,0 +1,78 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/program/program",
+			"style": {
+				"navigationBarTitleText": "program"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "my"
+			}
+		},
+		{
+			"path": "pages/study/study",
+			"style": {
+				"navigationBarTitleText": "program"
+			}
+		},
+		{
+			"path": "pages/tool/tool",
+			"style": {
+				"navigationBarTitleText": "study"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#323232",
+		"selectedColor": "#4378eb",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/a2.png",
+				"selectedIconPath": "static/tabbar/a1.png"
+			  },
+			  {
+				"pagePath": "pages/program/program",
+				"text": "项目",
+				"iconPath": "static/tabbar/f2.png",
+				"selectedIconPath": "static/tabbar/f1.png"
+			  },
+			  {
+				"pagePath": "pages/study/study",
+				"text": "学习",
+				"iconPath": "static/tabbar/k2.png",
+				"selectedIconPath": "static/tabbar/k1.png"
+			  },
+			  {
+				"pagePath": "pages/tool/tool",
+				"text": "工作室",
+				"iconPath": "static/tabbar/b2.png",
+				"selectedIconPath": "static/tabbar/b1.png"
+			  },
+			  {
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/h2.png",
+				"selectedIconPath": "static/tabbar/h1.png"
+			  }
+		]
+	}
+}
